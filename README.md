@@ -99,23 +99,28 @@ Now, plug in the USB A wire into the computer you want to control the Arduino wi
 
 Now, you can use the Arduino Program to try it out. Download the Arduino IDE. Make three folders in a sketch and import the MEGA_Code, AD5790.h, and DACSerial. Press “verify” to make sure the code is good syntax-wise. Press upload, and once it says “uploaded” on the bottom then you can open the Serial Monitor, which is shown using this icon in the top right corner: . Once you open it, you can start operating the DACs using the premade commands below. 
 
-## Commands
+## Operating Commands
 There are five commands: `Initialize`, `Set`, `Read`, `Ramp`, and `Help`. 
 
 Syntax:  To initialize a specific DAC before you can do anything with it, deliver the following command:
 
 `INIT [DAC#]`
+
 Example: `INIT 2`
 
 To set the voltage ouput for a specific DAC, deliver the following command:
 
-SET [DAC#] [DAC Value - bitcode]
-Example: SET 1 196540
+`SET [DAC#] [DAC Value - bitcode]`
+
+Example: `SET 1 196540`
+
 This would set it to 5.0 V. 
 
-To Read
+To Read voltage from the DAC register, deliver the following command: 
 
-READ 1
+`READ [DAC#]`
+
+Example: `READ 1`
 
 ## Results
 
