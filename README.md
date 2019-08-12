@@ -50,6 +50,8 @@ Contact me at najjarapu20@lawrenceville.org if you have any questions.
 
 ## Program
 
+Download the AD5790.h library, ArduinoDACSerial, and ArduinoMegaCode from this repository into the Arduino IDE (I used v. 1.8.9). 
+
 ## Build
 
 <img width="487" alt="Screen Shot 2019-08-12 at 2 43 39 PM" src="https://user-images.githubusercontent.com/33910853/62889807-1753b900-bd10-11e9-81da-656170709000.png">
