@@ -76,11 +76,11 @@ Solder 10 pin receptacle connector to 10 pin board.  Solder right angle connecto
 
 Cut hole for USB A to B plug and D3M connector (and 1-2 screw hole(s) for the D3M to keep it in place). Strip ends of hook up wires and solder to D3M connector, strip the other end and attach to the screw terminals in the previous step. 
 
-<img width="336" alt="Screen Shot 2019-08-12 at 2 55 22 PM" src="https://user-images.githubusercontent.com/33910853/62890296-3c94f700-bd11-11e9-9452-7d6df5d183cb.png">
-
 <img width="297" alt="Screen Shot 2019-08-12 at 4 50 40 PM" src="https://user-images.githubusercontent.com/33910853/62897481-5e967580-bd21-11e9-8770-2ecbe73073cd.png">
 
 Drill holes for BNC cables. Please use a drill press, because of me our lab has to live with this as the face of the box. 
+
+<img width="336" alt="Screen Shot 2019-08-12 at 2 55 22 PM" src="https://user-images.githubusercontent.com/33910853/62890296-3c94f700-bd11-11e9-9452-7d6df5d183cb.png">
 
 Attach previously made connectors to J3. On the EVAL board, insert LK7 (LDAC pin needs to be pulled low in order for the DAC register to be updated) and move LK1 from position A to position B since digital power is coming from J1, not SDP board. Connect the BNC cables to VOUT_BUF on the EVAL board. Solder .200” 3 pin and .200” 2 pin connector to Analog & Digital PCB’s, respectively. Solder the 3 position .200” screw terminal and 2 position .200” screw terminal to Analog and Digital power supply boards, respectively. Screw into EVAL boards. Attach this whole complex after attaching the necessary wires, shown in the next step. 
 
