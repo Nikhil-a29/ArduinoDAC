@@ -62,28 +62,29 @@ Attach the shield to the Arduino, making sure the pins line up. You can drill ho
 
 
 
+<img width="391" alt="Screen Shot 2019-08-12 at 2 53 19 PM" src="https://user-images.githubusercontent.com/33910853/62890206-f8095b80-bd10-11e9-8edb-8e4b8faebb4c.png">
 
 
 Solder four 10 pin receptacle connectors to SPI Board and add 10 straight headers so the ribbon cable can attach. Create holes using drill and attach SPI Board to base of the enclosure. 
 
+<img width="211" alt="Screen Shot 2019-08-12 at 2 54 25 PM" src="https://user-images.githubusercontent.com/33910853/62890255-196a4780-bd11-11e9-8beb-dcd095c52a64.png">
 
-Notes: Solder 10 pin receptacle connector to 10 pin board.  Solder right angle connector to gold side. Make four of these. 
+Solder 10 pin receptacle connector to 10 pin board.  Solder right angle connector to gold side. Make four of these. 
 
+<img width="336" alt="Screen Shot 2019-08-12 at 2 55 22 PM" src="https://user-images.githubusercontent.com/33910853/62890296-3c94f700-bd11-11e9-9452-7d6df5d183cb.png">
 
 Attach previously made connectors to J3 . Solder .200” 3 pin and .200” 2 pin connector to Analog & Digital PCB’s, respectively. Solder the 3 position .200” screw terminal and 2 position .200” screw terminal to Analog and Digital power supply boards, respectively. Screw into EVAL boards. Attach this whole complex after attaching the necessary wires, shown in the next step. 
 
+<img width="275" alt="Screen Shot 2019-08-12 at 2 56 01 PM" src="https://user-images.githubusercontent.com/33910853/62890347-533b4e00-bd11-11e9-805c-0076612a6745.png">
 
 Cut hole for USB A to B plug and D3M connector. Strip ends of hook up wires and solder to D3M connector, strip the other end and attach to the screw terminals in the previous step. 
 
+<img width="610" alt="Screen Shot 2019-08-12 at 2 56 41 PM" src="https://user-images.githubusercontent.com/33910853/62890399-6bab6880-bd11-11e9-9b09-8438ec349a96.png">
 
 Crimp wire connectors to hook-up wire/appropriate wire. Cover with heat-shrink tubing. Attach to +V, COMMON, -V. ***Keep +S linked to +V and -S linked to -V using the included metal connectors that should already be attached.*** Attach same connectors to a standard cable that plugs into the wall and separate Live, Neutral, and Ground. Connect the COM ground to the AC ground using a wire. ***Do not plug into the wall until done with all steps***
-
 Solder wires to the A3F 3 Position Circular Connector Plug, put metal cover back over the connections. 
 
-
-
-
-
+<img width="507" alt="Screen Shot 2019-08-12 at 2 58 43 PM" src="https://user-images.githubusercontent.com/33910853/62890558-b7f6a880-bd11-11e9-8b1c-504505a11eab.png">
 
 Strip the ends of the analog power wires (red yellow black) and screw them into the screw terminal. Do the same with the digital power wires. (You likely will need to remove the DAC complex from the SDP board).  Connect ribbon cable. **Not shown in this picture is the metal front plate. You will need to cut holes large enough for BNC cables in that and then screw on.**
 
