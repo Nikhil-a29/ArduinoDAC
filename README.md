@@ -1,9 +1,9 @@
-# ArduinoDAC
+# ArduinoDAC Documentation Guide
 **Complete** documentation for constructing and operating a four-channel, low-cost, precision 20-bit DAC (EVAL-AD5790) controlled using Arduino MEGA 2560.
 
 Created by Nikhil Ajjarapu 
 
-Acknowledgments: Thanks to the creators of OpenDacs.com for the initial list of hardware, the Simon Group at University of Chicago for the initial code for the Arduino, the Houck Group at Princeton University for the direction, and The Lawrenceville School. 
+Acknowledgments: Thanks the Houck Group at Princeton University for the direction, the creators of OpenDacs.com for the initial list of hardware, and the Simon Group at University of Chicago for the initial code for the Arduino. 
 
 
 ## Introduction/Overview
