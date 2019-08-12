@@ -42,7 +42,7 @@ Contact me at najjarapu20@lawrenceville.org if you have any questions.
 | Hook-Up Wire                                                       | 1568-1357-ND                                 | 16.95          | 1        | 16.95       |
 | 10 Position Receptacle Connector 0.100" (2.54mm) Through Hole Gold | A32936-ND                                    | 3.15           | 8        | 25.12       |
 | 18 AWG 3 Conductor 3-Prong Power Cord with Open Wiring             | https://tinyurl.com/y67ck8r9                 | 12.99          | 1        | 12.99       |
-| 18-22 AWG wire lug (MOUSER, NOT Digikey)                           | 538-19054-0054                               | .20            | 6        | 1.2         |
+| 18-22 AWG wire lug                           | A1061CT-ND	                               | .20            | 6        | 1.2         |
 | TOTAL                                                              |                                              |                |          | 1144.06     |
 | UNIT PRICE (per DAC)                                               |                                              |                |          | 286.02      |
 
