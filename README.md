@@ -87,11 +87,11 @@ Attach previously made connectors to J3. On the EVAL board, insert LK7 (LDAC pin
 <img width="610" alt="Screen Shot 2019-08-12 at 2 56 41 PM" src="https://user-images.githubusercontent.com/33910853/62890399-6bab6880-bd11-11e9-9b09-8438ec349a96.png">
 
 Crimp wire connectors to hook-up wire/appropriate wire. Cover with heat-shrink tubing. Attach to +V, COMMON, -V. ***Keep +S linked to +V and -S linked to -V using the included metal connectors that should already be attached.*** Attach same connectors to a standard cable that plugs into the wall and separate Live, Neutral, and Ground. Connect the COM ground to the AC ground using a wire. ***Do not plug into the wall until done with all steps***
-Solder wires to the A3F 3 Position Circular Connector Plug, put metal cover back over the connections. 
+Solder wires to the A3F 3 Position Circular Connector Plug, put metal cover back over the soldered connections. I would also put the power supply in a box so that the AC connections aren't exposed. 
 
 <img width="507" alt="Screen Shot 2019-08-12 at 2 58 43 PM" src="https://user-images.githubusercontent.com/33910853/62890558-b7f6a880-bd11-11e9-8b1c-504505a11eab.png">
 
-Strip the ends of the analog power wires (red yellow black) and screw them into the screw terminal. Do the same with the digital power wires. (You likely will need to remove the DAC complex from the SDP board).  Connect ribbon cable. **Not shown in this picture is the metal front plate. You will need to cut holes large enough for BNC cables in that and then screw on.**
+Strip the ends of the analog power wires (red yellow black) and screw them into the screw terminal. Do the same with the digital power wires. (You will need to remove the DAC complex from the SDP board).  Connect ribbon cable. **Not shown in this picture is the metal front plate. You will need to cut holes large enough for BNC cables in that and then screw on.**
 
 ## Testing
 
