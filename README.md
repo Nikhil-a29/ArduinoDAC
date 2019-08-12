@@ -72,7 +72,7 @@ Solder 10 pin receptacle connector to 10 pin board.  Solder right angle connecto
 
 <img width="336" alt="Screen Shot 2019-08-12 at 2 55 22 PM" src="https://user-images.githubusercontent.com/33910853/62890296-3c94f700-bd11-11e9-9452-7d6df5d183cb.png">
 
-Attach previously made connectors to J3 . Solder .200” 3 pin and .200” 2 pin connector to Analog & Digital PCB’s, respectively. Solder the 3 position .200” screw terminal and 2 position .200” screw terminal to Analog and Digital power supply boards, respectively. Screw into EVAL boards. Attach this whole complex after attaching the necessary wires, shown in the next step. 
+Attach previously made connectors to J3. On the EVAL board, insert LK7 (LDAC pin needs to be pulled low in order for the DAC register to be updated) and move LK1 from position A to position B since digital power is coming from J1, not SDP board.  Solder .200” 3 pin and .200” 2 pin connector to Analog & Digital PCB’s, respectively. Solder the 3 position .200” screw terminal and 2 position .200” screw terminal to Analog and Digital power supply boards, respectively. Screw into EVAL boards. Attach this whole complex after attaching the necessary wires, shown in the next step. 
 
 <img width="275" alt="Screen Shot 2019-08-12 at 2 56 01 PM" src="https://user-images.githubusercontent.com/33910853/62890347-533b4e00-bd11-11e9-805c-0076612a6745.png">
 
