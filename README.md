@@ -52,8 +52,10 @@ Contact me at najjarapu20@lawrenceville.org if you have any questions.
 
 ## Build
 
+<img width="487" alt="Screen Shot 2019-08-12 at 2 43 39 PM" src="https://user-images.githubusercontent.com/33910853/62889807-1753b900-bd10-11e9-81da-656170709000.png">
 
-*Note: I accidentally added solder to 44, but there shouldn’t be a pin there*
+*Note: I accidentally added solder to 44, but there shouldn’t be a pin there. You also don't need to add the three terminal blocks to the bottom unless you want LEDs, they weren't necessary for my setup, but you can add if you'd like.*
+
 Solder the 6 position receptacle connector to the MISO SCK RESET MOSI GND 5V group. Solder straight headers to the board where shown which will attach to the Arduino Mega.  ***Attach solder on the top of the board that connects the 3v3 pin to the 5V pin and do not add a pin to 3v3.*** This is because the EVAL board needs 5V between VCC and DGND, but the shield connects the 3v3 pin to the green terminal block. *** Solder 330 ohm resistors at R1, R2, and R3. Solder terminal blocks to the pictured areas in addition to inverted straight headers next to the SV1 for the ribbon cable. 
 
 Attach the shield to the Arduino, making sure the pins line up. You can drill holes into the bottom of the enclosure and attach the base plastic cover of the Arduino to the screws to secure it. 
