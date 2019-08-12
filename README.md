@@ -10,7 +10,7 @@ Acknowledgments: Thanks to the creators of OpenDacs.com for the initial list of 
 
 Content: Parts List, Build Instructions (with pictures), complete code, operating instructions, and measurement results.
 
-This device is composed of four EVAL-AD5790 boards which can be used simultaneously with an Arduino microcontroller and can output from -10V to +10V. This is a very cost efficient alternative to using other DC precision voltage sources. It is more economical than using an SDP board coupled with an EVAL Board since multiple DACS can be controlled at the same time, rather than one at a time. Note that you will need a dedicated computer to enter commands into the Arduino. 
+This device is composed of four EVAL-AD5790 voltage output boards which can be used simultaneously with an Arduino microcontroller and can output from -10V to +10V. This is a very cost efficient alternative to using other DC precision voltage sources. It is more economical than using an SDP board coupled with an EVAL Board since multiple DACS can be controlled at the same time, rather than one at a time. Note that you will need a dedicated computer to enter commands into the Arduino. 
 Contact me at najjarapu20@lawrenceville.org if you have any questions. 
 
 ## Parts List
