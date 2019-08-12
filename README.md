@@ -92,9 +92,9 @@ Strip the ends of the analog power wires (red yellow black) and screw them into 
 
 Before using the given commands to test, first check if everything is receiving the correct voltages. 
 
-Plug in the power supply, but don’t plug the A3F plug into the D3M yet. Using a voltmeter, check the voltage between +V / COM and -V / COM - this should be around +15V and -15V, respectively. After you check this, plug in the A3F plug into the D3M. 
+Plug in the power supply, but don’t plug the A3F plug into the D3M yet. Using a voltmeter, check the voltage between +V / COM and -V / COM - this should be around +15V and -15V, respectively. After you check this, plug in the A3F plug into the D3M. Then check the voltage between VDD & AGND and VCC & AGND, if these are +15 and -15V respectively, then your soldering was good.
 Now, plug in the USB A wire into the computer you want to control the Arduino with. Check the voltage between VCC and DGND, this should be +5V.  
-***Always make sure that you plug in the Acopian before the USB into your computer***
+**Always make sure that you plug in the Acopian before the USB into your computer, the digital power supply should not be on if the analog power supply isn't.**
 
 Now, you can use the Arduino Program to try it out. Download the Arduino IDE. Make three folders in a sketch and import the MEGA_Code, AD5790.h, and DACSerial. Press “verify” to make sure the code is good syntax-wise. Press upload, and once it says “uploaded” on the bottom then you can open the Serial Monitor, which is shown using this icon in the top right corner: . Once you open it, you can start operating the DACs using the premade commands below. 
 
