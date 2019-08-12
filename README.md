@@ -115,4 +115,12 @@ To Read
 
 READ 1
 
+## Results
 
+<img width="682" alt="Screen Shot 2019-08-12 at 3 18 52 PM" src="https://user-images.githubusercontent.com/33910853/62891737-8501e400-bd14-11e9-95f2-e9d5f99091fc.png">
+The blue signal is the voltage coming from the DAC, and the green plot is a Fast Fourier Transform of it. We observed that it had a noise floor of -108.687 dB.
+
+We compared this to using the SDP Board with the EVAL-AD5790 and the precision voltage source we currently use, the Yokogawa GS200. 
+
+## Future Work
+Unfortunately I couldn't try further improving this device. I hypothesize that using a 9V battery with the Arduino (instead of using power coming from the computer) would decrease the noise because batteries have lower noise. You could experiment with this by setting a voltage using your computer, plugging in a battery, and then unplugging the USB. Worth a try! 
