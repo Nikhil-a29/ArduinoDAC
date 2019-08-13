@@ -58,7 +58,7 @@ Download the AD5790.h library, ArduinoDACSerial, and ArduinoMegaCode from this r
 
 *Note: I accidentally added solder to 44, but there shouldn’t be a pin there. You also don't need to add the three terminal blocks to the bottom unless you want LEDs, they weren't necessary for my setup since the serial monitor will debug for you, but you can add if you'd like.*
 
-Solder the 6 position receptacle connector to the MISO SCK RESET MOSI GND 5V group. Solder straight headers to the board where shown which will attach to the Arduino Mega. **Attach solder on the top of the board that connects the 3v3 pin to the 5V pin and do not add a pin to 3v3.** This is because the EVAL board needs 5V between VCC and DGND, but the shield connects the 3.3V pin to the green terminal block.
+1. Solder the 6 position receptacle connector to the MISO SCK RESET MOSI GND 5V group. Solder straight headers to the board where shown which will attach to the Arduino Mega. **Attach solder on the top of the board that connects the 3v3 pin to the 5V pin and do not add a pin to 3v3.** This is because the EVAL board needs 5V between VCC and DGND, but the shield connects the 3.3V pin to the green terminal block.
 Attach the shield to the Arduino, making sure the pins line up. I recommend doing all of the drilling (see later steps) all at one time - here, you can drill holes into the bottom of the enclosure and attach the base plastic cover of the Arduino to the screws to secure it. 
 
 
@@ -66,32 +66,32 @@ Attach the shield to the Arduino, making sure the pins line up. I recommend doin
 <img width="500" alt="Screen Shot 2019-08-12 at 2 53 19 PM" src="https://user-images.githubusercontent.com/33910853/62890206-f8095b80-bd10-11e9-8edb-8e4b8faebb4c.png">
 
 
-Solder four 10 pin receptacle connectors to SPI Board and add 10 straight headers so the ribbon cable can attach. Create holes using drill and attach SPI Board to base of the enclosure. 
+2. Solder four 10 pin receptacle connectors to SPI Board and add 10 straight headers so the ribbon cable can attach. Create holes using drill and attach SPI Board to base of the enclosure. 
 
 <img width="211" alt="Screen Shot 2019-08-12 at 2 54 25 PM" src="https://user-images.githubusercontent.com/33910853/62890255-196a4780-bd11-11e9-8beb-dcd095c52a64.png">
 
-Solder 10 pin receptacle connector to 10 pin board.  Solder right angle connector to gold side. Make four of these. 
+3. Solder 10 pin receptacle connector to 10 pin board.  Solder right angle connector to gold side. Make four of these. 
 
 <img width="350" alt="Screen Shot 2019-08-12 at 2 56 01 PM" src="https://user-images.githubusercontent.com/33910853/62890347-533b4e00-bd11-11e9-805c-0076612a6745.png">
 
-Cut hole for USB A to B plug and D3M connector (and 1-2 screw hole(s) for the D3M to keep it in place). Strip ends of hook up wires and solder to D3M connector, strip the other end and attach to the screw terminals in the previous step. 
+4. Cut hole for USB A to B plug and D3M connector (and 1-2 screw hole(s) for the D3M to keep it in place). Strip ends of hook up wires and solder to D3M connector, strip the other end and attach to the screw terminals shown in step 6. 
 
 <img width="300" alt="Screen Shot 2019-08-12 at 4 50 40 PM" src="https://user-images.githubusercontent.com/33910853/62897481-5e967580-bd21-11e9-8770-2ecbe73073cd.png">
 
-Drill holes for BNC cables. Please use a drill press, because of me our lab has to live with this as the face of the box. 
+5. Drill holes for BNC cables. Please use a drill press, because of me our lab has to live with this as the face of the box. 
 
 <img width="500" alt="Screen Shot 2019-08-12 at 2 55 22 PM" src="https://user-images.githubusercontent.com/33910853/62890296-3c94f700-bd11-11e9-9452-7d6df5d183cb.png">
 
-Attach previously made connectors to J3. On the EVAL board, insert LK7 (LDAC pin needs to be pulled low in order for the DAC register to be updated) and move LK1 from position A to position B since digital power is coming from J1, not SDP board. Connect the BNC cables to VOUT_BUF on the EVAL board. Solder .200” 3 pin and .200” 2 pin connector to Analog & Digital PCB’s, respectively. Solder the 3 position .200” screw terminal and 2 position .200” screw terminal to Analog and Digital power supply boards, respectively. Screw into EVAL boards. Attach this whole complex after attaching the necessary wires, shown in the next step. 
+6. Attach previously made connectors to J3. On the EVAL board, insert LK7 (LDAC pin needs to be pulled low in order for the DAC register to be updated) and move LK1 from position A to position B since digital power is coming from J1, not SDP board. Connect the BNC cables to VOUT_BUF on the EVAL board. Solder .200” 3 pin and .200” 2 pin connector to Analog & Digital PCB’s, respectively. Solder the 3 position .200” screw terminal and 2 position .200” screw terminal to Analog and Digital power supply boards, respectively. Screw into EVAL boards. Attach this whole complex after attaching the necessary wires, shown in the next step. 
 
 <img width="500" alt="Screen Shot 2019-08-12 at 2 56 41 PM" src="https://user-images.githubusercontent.com/33910853/62890399-6bab6880-bd11-11e9-9b09-8438ec349a96.png">
 
-Crimp wire connectors to hook-up wire/appropriate wire. Cover with heat-shrink tubing. Attach to +V, COMMON, -V. ***Keep +S linked to +V and -S linked to -V using the included metal connectors that should already be attached.*** Attach same connectors to a standard cable that plugs into the wall and separate Live, Neutral, and Ground. Connect the COM ground to the AC ground using a wire. ***Do not plug into the wall until done with all steps***
+7. Crimp wire connectors to hook-up wire/appropriate wire. Cover with heat-shrink tubing. Attach to +V, COMMON, -V. ***Keep +S linked to +V and -S linked to -V using the included metal connectors that should already be attached.*** Attach same connectors to a standard cable that plugs into the wall and separate Live, Neutral, and Ground. Connect the COM ground to the AC ground using a wire. ***Do not plug into the wall until done with all steps***
 Solder wires to the A3F 3 Position Circular Connector Plug, put metal cover back over the soldered connections. I would also put the power supply in a box so that the AC connections aren't exposed. 
 
 <img width="507" alt="Screen Shot 2019-08-12 at 2 58 43 PM" src="https://user-images.githubusercontent.com/33910853/62890558-b7f6a880-bd11-11e9-8b1c-504505a11eab.png">
 
-Strip the ends of the analog power wires (red yellow black) and screw them into the screw terminal. Do the same with the digital power wires. (You will need to remove the DAC complex from the SDP board).  Connect ribbon cable. **Not shown in this picture is the metal front plate. You will need to cut holes large enough for BNC cables in that and then screw on.**
+8. Strip the ends of the analog power wires (red yellow black) and screw them into the screw terminal. Do the same with the digital power wires. (You will need to remove the DAC complex from the SDP board).  Connect ribbon cable. **Not shown in this picture is the metal front plate. You will need to cut holes large enough for BNC cables in that and then screw on.**
 
 ## Testing
 
