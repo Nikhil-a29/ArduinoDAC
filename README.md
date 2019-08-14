@@ -3,7 +3,7 @@
 
 Created by Nikhil Ajjarapu 
 
-Acknowledgments: Thanks the Houck Group at Princeton University for the direction, the creators of OpenDacs.com for the initial list of hardware, and the Simon Group at University of Chicago for the initial code for the Arduino. 
+Acknowledgments: Thanks to the Houck Group at Princeton University for the direction, the creators of OpenDacs.com for the initial list of hardware, and the Simon Group at University of Chicago for the initial code for the Arduino. 
 
 
 ## Introduction/Overview
@@ -119,6 +119,12 @@ To set the voltage ouput for a specific DAC, deliver the following command:
 Example: `SET 1 196540`
 
 This would set it to 5.0 V. 
+
+To ramp the voltage ouput for a specific DAC at a specific rate for an amount of time, deliver the following command:
+
+`RAMP [DAC#] [DAC_Final_Value] [Step_Size] [Step_Time]`
+
+Example: `RAMP 1 196540 10000 10000`
 
 To Read voltage from the DAC register, deliver the following command: 
 
