@@ -6,14 +6,18 @@ Created by Nikhil Ajjarapu
 Acknowledgments: Thanks to the Houck Group at Princeton University for their direction, the creators of OpenDacs.com for the initial list of hardware, and the Simon Group at University of Chicago for the initial Arduino code. 
 
 
+## Table of Contents: 
+[Parts List](https://github.com/Nikhil-a29/ArduinoDAC/blob/master/README.md#parts-list)
+
+[Build Instructions with Pictures](https://github.com/Nikhil-a29/ArduinoDAC/blob/master/README.md#build)
+
+[Complete Code](https://github.com/Nikhil-a29/ArduinoDAC/blob/master/README.md#program)
+
+[Operating Instructions](https://github.com/Nikhil-a29/ArduinoDAC/blob/master/README.md#testing)
+
+[Measurement Results](https://github.com/Nikhil-a29/ArduinoDAC/blob/master/README.md#results)
+
 ## Introduction/Overview
-
-Table of Contents: 
-[Parts List] (https://github.com/Nikhil-a29/ArduinoDAC/blob/master/README.md#parts-list)
-[Build Instructions with Pictures](https://github.com/Nikhil-a29/ArduinoDAC/blob/master/README.md#Build)
-[Complete Code] (https://github.com/Nikhil-a29/ArduinoDAC/blob/master/README.md#Program)
-
-| Parts List | Build Instructions (with pictures) | Complete Code | Operating instructions | Measurement Results.
 
 This device is composed of four EVAL-AD5790 voltage output boards which can be used simultaneously with an Arduino microcontroller and can output from -10V to +10V. This is a very cost efficient alternative to using other DC precision voltage sources. It is more economical than using an SDP board coupled with an EVAL Board since multiple DACS can be controlled at the same time, rather than one at a time. Note that you will need a dedicated computer to enter commands into the Arduino. 
 Contact me at najjarapu20@lawrenceville.org if you have any questions. 
