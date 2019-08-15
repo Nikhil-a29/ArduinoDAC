@@ -19,7 +19,7 @@ Acknowledgments: Thanks to the Houck Group at Princeton University for their dir
 
 ## Introduction/Overview
 
-This device is composed of four EVAL-AD5790 voltage output boards which can be used simultaneously with an Arduino microcontroller and can output from -10V to +10V. This is a very cost efficient alternative to using other DC precision voltage sources. It is more economical than using an SDP board coupled with an EVAL Board since multiple DACS can be controlled at the same time, rather than one at a time. Note that you will need a dedicated computer to enter commands into the Arduino. 
+This device is composed of four EVAL-AD5790 voltage output boards which can be used simultaneously with an Arduino microcontroller and can output from -10V to +10V. This is a very cost efficient alternative to using other DC precision voltage sources. It is more economical than using an SDP board coupled with an EVAL Board since multiple DACS can be controlled at the same time, rather than one at a time. Note that you will need a dedicated computer to enter commands into the Arduino.
 Contact me at najjarapu20@lawrenceville.org if you have any questions. 
 
 ## Parts List
@@ -55,11 +55,6 @@ Contact me at najjarapu20@lawrenceville.org if you have any questions.
 | TOTAL                                                              |                                              |                |          | 1144.06     |
 | UNIT PRICE (per DAC)                                               |                                              |                |          | 286.02      |
 
-
-
-## Program
-
-Download the AD5790.h library, ArduinoDACSerial, and ArduinoMegaCode from this repository into the Arduino IDE (I used v. 1.8.9). 
 
 ## Build
 
@@ -100,7 +95,11 @@ Solder wires to the A3F 3 Position Circular Connector Plug, put metal cover back
 
 <img width="507" alt="Screen Shot 2019-08-12 at 2 58 43 PM" src="https://user-images.githubusercontent.com/33910853/62890558-b7f6a880-bd11-11e9-8b1c-504505a11eab.png">
 
-8. Strip the ends of the analog power wires (red yellow black) and screw them into the screw terminal. Do the same with the digital power wires. (You will need to remove the DAC complex from the SDP board).  Connect ribbon cable. **Not shown in this picture is the metal front plate. You will need to cut holes large enough for BNC cables in that and then screw on.**
+8. Strip the ends of the analog power wires (red yellow black) and screw them into the screw terminal. Do the same with the digital power wires. (You will need to remove the DAC complex from the SDP board).  Connect ribbon cable. **Not shown in this picture is the metal front plate.**
+
+## Program
+
+Download the AD5790.h library, ArduinoDACSerial, and ArduinoMegaCode from this repository into the Arduino IDE (I used v. 1.8.9). 
 
 ## Testing
 
