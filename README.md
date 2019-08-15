@@ -3,12 +3,14 @@
 
 Created by Nikhil Ajjarapu 
 
-Acknowledgments: Thanks to the Houck Group at Princeton University for the direction, the creators of OpenDacs.com for the initial list of hardware, and the Simon Group at University of Chicago for the initial code for the Arduino. 
+Acknowledgments: Thanks to the Houck Group at Princeton University for their direction, the creators of OpenDacs.com for the initial list of hardware, and the Simon Group at University of Chicago for the initial Arduino code. 
 
 
 ## Introduction/Overview
 
-Content: Parts List, Build Instructions (with pictures), complete code, operating instructions, and measurement results.
+Table of Contents: 
+[Parts List] (
+| Parts List | Build Instructions (with pictures) | Complete Code | Operating instructions | Measurement Results.
 
 This device is composed of four EVAL-AD5790 voltage output boards which can be used simultaneously with an Arduino microcontroller and can output from -10V to +10V. This is a very cost efficient alternative to using other DC precision voltage sources. It is more economical than using an SDP board coupled with an EVAL Board since multiple DACS can be controlled at the same time, rather than one at a time. Note that you will need a dedicated computer to enter commands into the Arduino. 
 Contact me at najjarapu20@lawrenceville.org if you have any questions. 
@@ -138,6 +140,3 @@ Example: `READ 1`
 The blue signal is the voltage coming from the DAC, and the green plot is a Fast Fourier Transform of it. We observed that it had a noise floor of -108.687 dB.
 
 We compared this to using the SDP Board with the EVAL-AD5790 and the precision voltage source we currently use, the Yokogawa GS200. 
-
-## Future Work
-Unfortunately I couldn't try further improving this device. I hypothesize that using a 9V battery with the Arduino (instead of using power coming from the computer) would decrease the noise because batteries have lower noise. You could experiment with this by setting a voltage using your computer, plugging in a battery, and then unplugging the USB. Worth a try! 
