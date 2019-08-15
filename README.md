@@ -142,6 +142,9 @@ Example: `READ 1`
 
 ## Results
 
+We measured the voltage noise by using a Keysight S-Series Oscilloscope. To measure the noise, we did a fast fourier transform on the signal and got the average noise floor in dBm. We took some data at "high frequency" and simulated a low-pass filter on the other to see how it compared against our currently used voltage source, the Yokogawa GS200. 
+
+The ArduinoDAC outperformed the Yokogawa GS200 at both frequencies at **7% of the price.**
 <img width="682" alt="Screen Shot 2019-08-12 at 3 18 52 PM" src="https://user-images.githubusercontent.com/33910853/62891737-8501e400-bd14-11e9-95f2-e9d5f99091fc.png">
 The blue signal is the voltage coming from the DAC, and the green plot is a Fast Fourier Transform of it. We observed that it had a noise floor of -108.687 dB.
 
