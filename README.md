@@ -1,4 +1,4 @@
-# ArduinoDAC Documentation Guide
+# ArduinoDAC Documentation Guide (Go to Wiki for guide)
 **Complete** documentation for constructing and operating a four-channel, low-cost, precision 20-bit DAC (EVAL-AD5790) controlled using Arduino MEGA 2560.
 
 Created by Nikhil Ajjarapu 
