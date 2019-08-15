@@ -24,7 +24,7 @@ Contact me at najjarapu20@lawrenceville.org if you have any questions.
 
 ## Parts List
 
-| Part                                                               | Link/Part Number                             | Unit Price ($) | # Needed | Total Price |
+| Part                                                               | Link/Part Number (Part number is from Digikey)                            | Unit Price ($) | # Needed | Total Price |
 |--------------------------------------------------------------------|----------------------------------------------|----------------|----------|-------------|
 | EVAL-AD5790                                                        | https://tinyurl.com/y5ac79nn                 | 149            | 4        | 596         |
 | 2 position .100” terminal block                                    | A98333-ND                                    | .88            | 1        | .88         |
