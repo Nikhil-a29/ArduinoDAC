@@ -132,7 +132,9 @@ To ramp the voltage ouput for a specific DAC at a specific rate for an amount of
 
 `RAMP [DAC#] [DAC_Final_Value] [Step_Size] [Step_Time]`
 
-Example: `RAMP 1 196540 10000 10000`
+Example: `RAMP 1 196540 13225 10000`
+
+This would ramp dac 1 from 0V to 5V at a rate of 1 V per second (Step_Time is in millis)
 
 To Read voltage from the DAC register, deliver the following command: 
 
