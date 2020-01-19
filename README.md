@@ -5,6 +5,8 @@ Created by Nikhil Ajjarapu.
 
 Acknowledgments: Thanks to the Houck Group at Princeton University for their direction, the creators of OpenDacs.com for the initial list of hardware, and the Simon Group at University of Chicago for the initial Arduino code. 
 
+## Poster:
+<img width="750" alt="Screen Shot 2020-01-18 at 10 26 57 PM" src="https://user-images.githubusercontent.com/33910853/72674176-c3c56400-3a41-11ea-9c7f-cdbbe21ff0be.png">
 
 ## Table of Contents: 
 [Parts List](https://github.com/Nikhil-a29/ArduinoDAC/blob/master/README.md#parts-list)
