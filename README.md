@@ -3,7 +3,7 @@
 
 Created by Nikhil Ajjarapu. 
 
-Acknowledgments: Thanks to the Houck Group at Princeton University for their direction, the creators of OpenDacs.com for the initial list of hardware, and the Simon Group at University of Chicago for the initial Arduino code. 
+Acknowledgments: Thanks to the Houck Group at Princeton University for their direction, and the Simon Lab at the University of Chicago for their advice.
 
 ## Poster:
 <img width="750" alt="Screen Shot 2020-01-18 at 10 26 57 PM" src="https://user-images.githubusercontent.com/33910853/72674176-c3c56400-3a41-11ea-9c7f-cdbbe21ff0be.png">
@@ -22,7 +22,7 @@ Acknowledgments: Thanks to the Houck Group at Princeton University for their dir
 ## Introduction/Overview
 
 This device is composed of four EVAL-AD5790 voltage output boards which can be used simultaneously with an Arduino microcontroller and can output from -10V to +10V. This is a very cost efficient alternative to using other DC precision voltage sources. It is more economical than using an SDP board coupled with an EVAL Board since multiple DACS can be controlled at the same time, rather than one at a time. Note that you will need a dedicated computer to enter commands into the Arduino.
-Contact me at najjarapu20@lawrenceville.org if you have any questions. 
+Contact me at nikhila@princeton.edu if you have any questions. 
 
 ## Parts List
 
