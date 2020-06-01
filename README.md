@@ -6,7 +6,7 @@ Created by Nikhil Ajjarapu.
 Acknowledgments: Thanks to the Houck Group at Princeton University for their direction, and the Simon Lab at the University of Chicago for their advice.
 
 ## Poster:
-<img width="750" alt="Screen Shot 2020-01-18 at 10 26 57 PM" src="https://user-images.githubusercontent.com/33910853/72674176-c3c56400-3a41-11ea-9c7f-cdbbe21ff0be.png">
+<img width="750" alt="Screen Shot 2020-01-18 at 10 26 57 PM" src="https://github.com/Nikhil-a29/ArduinoDAC/files/4713414/Ajjarapu.Final.Poster.pptx">
 
 ## Table of Contents: 
 [Parts List](https://github.com/Nikhil-a29/ArduinoDAC/blob/master/README.md#parts-list)
